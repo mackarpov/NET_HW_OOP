@@ -1,3 +1,12 @@
+### Package Files ###
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -48,15 +57,6 @@ bin/
 Thumbs.db*
 .DS_Store*
 HELP.md
-
-### Package Files ###
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
 ###
 !**/src/main/**
