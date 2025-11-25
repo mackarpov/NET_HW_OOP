@@ -1,7 +1,7 @@
 package ru.netology
 
 data class Post(
-    val id: Int,
+    val id: Int = 0,
     val postType: List<String> = listOf("post", "copy", "reply", "postpone", "suggest"),
     val text: String = "Hello, Kotlin!",
     val replyPostId: Int = 11,
